@@ -1,0 +1,28 @@
+{
+  "deployment": {
+    "environment": "development",
+    "debug_mode": true,
+    "enable_hot_reload": true,
+    "graceful_shutdown_timeout": 10,
+    "max_concurrent_requests": 10,
+    "worker_threads": 2,
+    "enable_container_mode": false
+  },
+  "monitoring": {
+    "log_level": "DEBUG",
+    "enable_metrics": false,
+    "enable_health_checks": false
+  },
+  "ai": {
+    "timeout_seconds": 60,
+    "temperature": 0.8
+  },
+  "memory": {
+    "max_conversation_history": 20,
+    "memory_retention_days": 7
+  },
+  "api": {
+    "request_timeout": 60,
+    "enable_caching": false
+  }
+}

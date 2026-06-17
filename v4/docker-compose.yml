@@ -1,0 +1,80 @@
+version: '3.8'
+
+services:
+  aviation-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aviation-girl-v4
+    restart: unless-stopped
+    
+    environment:
+      - AVIATION_BOT_ENVIRONMENT=production
+      - AVIATION_BOT_CONTAINER_MODE=true
+      - AVIATION_BOT_LOG_LEVEL=INFO
+      - AVIATION_BOT_METRICS_PORT=8080
+      
+      
+      - AVIATION_BOT_DISCORD_TOKEN=${DISCORD_TOKEN}
+      - AVIATION_BOT_DISCORD_PREFIX=${DISCORD_PREFIX:-!}
+      
+    
+      - AVIATION_BOT_WEATHER_API_KEY=${WEATHER_API_KEY}
+      - AVIATION_BOT_FLIGHT_API_KEY=${FLIGHT_API_KEY}
+      - AVIATION_BOT_FAA_API_KEY=${FAA_API_KEY}
+    
+    volumes:
+  
+      - aviation_data:/app/data
+      - aviation_logs:/app/logs
+      - aviation_keys:/app/keys
+      
+     
+      - ./config:/app/config:ro
+    
+    ports:
+      
+      - "8080:8080"
+    
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    
+
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '1.0'
+        reservations:
+          memory: 512M
+          cpus: '0.25'
+    
+   
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    
+
+    security_opt:
+      - no-new-privileges:true
+    read_only: false
+    tmpfs:
+      - /tmp:noexec,nosuid,size=100m
+
+volumes:
+  aviation_data:
+    driver: local
+  aviation_logs:
+    driver: local
+  aviation_keys:
+    driver: local
+
+networks:
+  default:
+    name: aviation-bot-network

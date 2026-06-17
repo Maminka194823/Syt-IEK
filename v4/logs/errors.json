@@ -1,0 +1,1502 @@
+[
+  {
+    "error_id": "ERR_20260128_210547_8e4884ed",
+    "timestamp": "2026-01-28T21:05:47.974389",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 819255,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210547_d45d6519",
+    "timestamp": "2026-01-28T21:05:47.994412",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 499041,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_6aa4befe",
+    "timestamp": "2026-01-28T21:05:48.014627",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 2,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_4a83acd5",
+    "timestamp": "2026-01-28T21:05:48.033649",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 189564,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_a1c4c2d4",
+    "timestamp": "2026-01-28T21:05:48.052668",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 358079,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_55adbf29",
+    "timestamp": "2026-01-28T21:05:48.074252",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 782415,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_cc1e14b7",
+    "timestamp": "2026-01-28T21:05:48.094276",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 3600,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_1ea27f23",
+    "timestamp": "2026-01-28T21:05:48.113802",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 634942,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_0be48cc0",
+    "timestamp": "2026-01-28T21:05:48.134571",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 550568,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_f58d34f8",
+    "timestamp": "2026-01-28T21:05:48.153591",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 579519,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_a223b40b",
+    "timestamp": "2026-01-28T21:05:48.171611",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 962283,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_ab5fc5d4",
+    "timestamp": "2026-01-28T21:05:48.191192",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 994464,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_54f785bc",
+    "timestamp": "2026-01-28T21:05:48.212212",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 396049,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_3c0b7e6e",
+    "timestamp": "2026-01-28T21:05:48.231573",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 57632,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_f20fa8d8",
+    "timestamp": "2026-01-28T21:05:48.250594",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 521992,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_339abf6b",
+    "timestamp": "2026-01-28T21:05:48.271618",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 174090,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_9819768e",
+    "timestamp": "2026-01-28T21:05:48.289632",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 121655,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_182409a7",
+    "timestamp": "2026-01-28T21:05:48.309650",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 314123,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_08d44902",
+    "timestamp": "2026-01-28T21:05:48.330808",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 431872,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_a354c9e7",
+    "timestamp": "2026-01-28T21:05:48.350830",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 498991,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_8a8a7612",
+    "timestamp": "2026-01-28T21:05:48.370429",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 278550,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_404e9d47",
+    "timestamp": "2026-01-28T21:05:48.391246",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 999999,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_8dd72d11",
+    "timestamp": "2026-01-28T21:05:48.411268",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 457724,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_6eb4c8aa",
+    "timestamp": "2026-01-28T21:05:48.433807",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 415922,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_922480cd",
+    "timestamp": "2026-01-28T21:05:48.453713",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 580343,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_894d58ba",
+    "timestamp": "2026-01-28T21:05:48.474730",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 371659,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_b0fa7cf1",
+    "timestamp": "2026-01-28T21:05:48.494750",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 550100,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_3f4145df",
+    "timestamp": "2026-01-28T21:05:48.511867",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 730775,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_37da7a43",
+    "timestamp": "2026-01-28T21:05:48.530402",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 283879,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_644dbe42",
+    "timestamp": "2026-01-28T21:05:48.551425",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 796777,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_0c844ceb",
+    "timestamp": "2026-01-28T21:05:48.571333",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 926785,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_9b5e9eb6",
+    "timestamp": "2026-01-28T21:05:48.592095",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 348752,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_d1cada78",
+    "timestamp": "2026-01-28T21:05:48.611116",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 847403,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_7377dd03",
+    "timestamp": "2026-01-28T21:05:48.631349",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 174879,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_2afc4974",
+    "timestamp": "2026-01-28T21:05:48.652136",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 663056,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_ef5d6158",
+    "timestamp": "2026-01-28T21:05:48.672824",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 999998,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_2f4eeee1",
+    "timestamp": "2026-01-28T21:05:48.692845",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 396368,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_a139fa58",
+    "timestamp": "2026-01-28T21:05:48.712915",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 954255,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_b68b4f2d",
+    "timestamp": "2026-01-28T21:05:48.729938",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 267980,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_20c6d199",
+    "timestamp": "2026-01-28T21:05:48.747953",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 213045,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_dabe3b33",
+    "timestamp": "2026-01-28T21:05:48.769975",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 168851,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_27cd7a39",
+    "timestamp": "2026-01-28T21:05:48.791120",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 332085,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_fc8f3cdf",
+    "timestamp": "2026-01-28T21:05:48.810132",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 767239,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_4bc14920",
+    "timestamp": "2026-01-28T21:05:48.830676",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 233464,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_43c336b9",
+    "timestamp": "2026-01-28T21:05:48.850694",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 748446,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_2cbd5297",
+    "timestamp": "2026-01-28T21:05:48.871344",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 363039,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_0a7e42e6",
+    "timestamp": "2026-01-28T21:05:48.893176",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 415088,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_cd1cf830",
+    "timestamp": "2026-01-28T21:05:48.912199",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 220167,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_d6f85420",
+    "timestamp": "2026-01-28T21:05:48.932499",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 715336,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_ab9fb078",
+    "timestamp": "2026-01-28T21:05:48.954037",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 72088,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_4dff50c2",
+    "timestamp": "2026-01-28T21:05:48.974056",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 138357,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210548_8c5983b3",
+    "timestamp": "2026-01-28T21:05:48.994076",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 99999,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_4a5c33f7",
+    "timestamp": "2026-01-28T21:05:49.016607",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 270647,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_f272e557",
+    "timestamp": "2026-01-28T21:05:49.035631",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 251841,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_58624d47",
+    "timestamp": "2026-01-28T21:05:49.056647",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 402313,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_0454cb91",
+    "timestamp": "2026-01-28T21:05:49.075651",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 310757,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_7e60bce6",
+    "timestamp": "2026-01-28T21:05:49.097368",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 983668,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_c643ddbf",
+    "timestamp": "2026-01-28T21:05:49.116905",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 131233,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_896cb72c",
+    "timestamp": "2026-01-28T21:05:49.136928",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 836540,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_50b7e617",
+    "timestamp": "2026-01-28T21:05:49.158718",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 969431,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_d20c15da",
+    "timestamp": "2026-01-28T21:05:49.177747",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 694795,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_fcacb048",
+    "timestamp": "2026-01-28T21:05:49.196670",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 488120,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_56f489a8",
+    "timestamp": "2026-01-28T21:05:49.217206",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 288253,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_5d4f64c3",
+    "timestamp": "2026-01-28T21:05:49.238224",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 264400,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_4483fae4",
+    "timestamp": "2026-01-28T21:05:49.262764",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 790749,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_bed74a6a",
+    "timestamp": "2026-01-28T21:05:49.285795",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 272062,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_3767a015",
+    "timestamp": "2026-01-28T21:05:49.306363",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 458175,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_16e1cbfc",
+    "timestamp": "2026-01-28T21:05:49.322751",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 696286,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_2d117a0f",
+    "timestamp": "2026-01-28T21:05:49.343564",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 786790,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_68e402f6",
+    "timestamp": "2026-01-28T21:05:49.363589",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 244632,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_624882ec",
+    "timestamp": "2026-01-28T21:05:49.384618",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 373718,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_1559535c",
+    "timestamp": "2026-01-28T21:05:49.407661",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 682753,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_59815ef8",
+    "timestamp": "2026-01-28T21:05:49.426931",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 936156,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_a2343ca1",
+    "timestamp": "2026-01-28T21:05:49.450845",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 266283,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_3f7ba617",
+    "timestamp": "2026-01-28T21:05:49.472144",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 515796,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_5d3aacc0",
+    "timestamp": "2026-01-28T21:05:49.494164",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 968807,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_2340c1c8",
+    "timestamp": "2026-01-28T21:05:49.513766",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 234461,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_b9c2a2bd",
+    "timestamp": "2026-01-28T21:05:49.536299",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 628837,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_8687ac05",
+    "timestamp": "2026-01-28T21:05:49.555061",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 268038,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_74a2f1e5",
+    "timestamp": "2026-01-28T21:05:49.573083",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 722817,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_1e326735",
+    "timestamp": "2026-01-28T21:05:49.593052",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 760871,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_4b49db7f",
+    "timestamp": "2026-01-28T21:05:49.610564",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 339801,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_4dc15605",
+    "timestamp": "2026-01-28T21:05:49.627093",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 324257,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_e388fc22",
+    "timestamp": "2026-01-28T21:05:49.643716",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 911288,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_a56f5499",
+    "timestamp": "2026-01-28T21:05:49.661739",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 352626,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_566cb630",
+    "timestamp": "2026-01-28T21:05:49.684773",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 697277,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_27631106",
+    "timestamp": "2026-01-28T21:05:49.704791",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 896984,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_27b7ec88",
+    "timestamp": "2026-01-28T21:05:49.723504",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 45876,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_7e8e52c1",
+    "timestamp": "2026-01-28T21:05:49.740960",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 447529,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_3cf24cd3",
+    "timestamp": "2026-01-28T21:05:49.758005",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 741522,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_bbcb1501",
+    "timestamp": "2026-01-28T21:05:49.774541",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 986602,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_4c62596e",
+    "timestamp": "2026-01-28T21:05:49.791119",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 246218,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_5ccef7f4",
+    "timestamp": "2026-01-28T21:05:49.811136",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 188358,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210549_cdb4a3a1",
+    "timestamp": "2026-01-28T21:05:49.826668",
+    "category": "ai_model",
+    "severity": "high",
+    "component": "message_handler",
+    "message": "'MockAIModel' object has no attribute 'process_message'",
+    "context": {
+      "user_id": 510510,
+      "message": "Tell me about aircraft"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\tests\\..\\src\\bot\\message_handler.py\", line 368, in _process_message_internal\n    ai_response = await self.ai_orchestrator.process_message(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'MockAIModel' object has no attribute 'process_message'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210613_37988b36",
+    "timestamp": "2026-01-28T21:06:13.211890",
+    "category": "unknown",
+    "severity": "critical",
+    "component": "discord_client",
+    "message": "'ResourceManager' object has no attribute 'initialize'",
+    "context": {
+      "phase": "startup",
+      "config": "BotConfiguration(discord=DiscordConfig(token='test_token', command_prefix='!', auto_reply_on_mention=True, auto_reply_on_reply=True, max_message_length=2000, embed_color=2003199, status_message='Flying high! \u2708\ufe0f', activity_type='watching'), ai=AIConfig(model_name='qwen2.5', model_path=None, max_context_length=4096, temperature=0.7, top_p=0.9, max_tokens=512, timeout_seconds=30, enable_streaming=False), memory=MemoryConfig(enable_user_memory=True, enable_conversation_history=True, max_conversation_history=50, max_context_messages=10, memory_retention_days=30, auto_prune_enabled=True, relevance_threshold=0.5), knowledge=KnowledgeConfig(enable_rag=True, vector_db_path='./data/vector_db', embedding_model='sentence-transformers/all-MiniLM-L6-v2', max_search_results=5, similarity_threshold=0.7, enable_real_time_data=True, cache_ttl_seconds=300), security=SecurityConfig(enable_encryption=True, encryption_key_path='./keys/encryption.key', enable_audit_logging=True, audit_log_path='./logs/audit.log', max_login_attempts=3, session_timeout_minutes=60, enable_rate_limiting=True), api=APIConfig(aviation_weather_api_key=None, flight_tracking_api_key=None, faa_api_key=None, request_timeout=30, max_retries=3, retry_delay=1.0, enable_caching=True, cache_ttl=300), monitoring=MonitoringConfig(enable_metrics=True, metrics_port=8080, enable_health_checks=True, health_check_interval=60, log_level='INFO', log_file_path='./logs/aviation_bot.log', max_log_file_size=10485760, log_backup_count=5), deployment=DeploymentConfig(environment=<Environment.DEVELOPMENT: 'development'>, debug_mode=False, enable_hot_reload=False, graceful_shutdown_timeout=30, max_concurrent_requests=100, worker_threads=4, enable_container_mode=False))"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 131, in setup_hook\n    await self._initialize_system_group(system_group)\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 158, in _initialize_system_group\n    await self._init_monitoring_systems()\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 190, in _init_monitoring_systems\n    await self.resource_manager.initialize()\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ResourceManager' object has no attribute 'initialize'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210658_62c6c1d3",
+    "timestamp": "2026-01-28T21:06:58.081535",
+    "category": "knowledge_retrieval",
+    "severity": "critical",
+    "component": "discord_client",
+    "message": "RAGSystem.__init__() got an unexpected keyword argument 'knowledge_base'",
+    "context": {
+      "phase": "startup",
+      "config": "BotConfiguration(discord=DiscordConfig(token='test_token', command_prefix='!', auto_reply_on_mention=True, auto_reply_on_reply=True, max_message_length=2000, embed_color=2003199, status_message='Flying high! \u2708\ufe0f', activity_type='watching'), ai=AIConfig(model_name='qwen2.5', model_path=None, max_context_length=4096, temperature=0.7, top_p=0.9, max_tokens=512, timeout_seconds=30, enable_streaming=False), memory=MemoryConfig(enable_user_memory=True, enable_conversation_history=True, max_conversation_history=50, max_context_messages=10, memory_retention_days=30, auto_prune_enabled=True, relevance_threshold=0.5), knowledge=KnowledgeConfig(enable_rag=True, vector_db_path='./data/vector_db', embedding_model='sentence-transformers/all-MiniLM-L6-v2', max_search_results=5, similarity_threshold=0.7, enable_real_time_data=True, cache_ttl_seconds=300), security=SecurityConfig(enable_encryption=True, encryption_key_path='./keys/encryption.key', enable_audit_logging=True, audit_log_path='./logs/audit.log', max_login_attempts=3, session_timeout_minutes=60, enable_rate_limiting=True), api=APIConfig(aviation_weather_api_key=None, flight_tracking_api_key=None, faa_api_key=None, request_timeout=30, max_retries=3, retry_delay=1.0, enable_caching=True, cache_ttl=300), monitoring=MonitoringConfig(enable_metrics=True, metrics_port=8080, enable_health_checks=True, health_check_interval=60, log_level='INFO', log_file_path='./logs/aviation_bot.log', max_log_file_size=10485760, log_backup_count=5), deployment=DeploymentConfig(environment=<Environment.DEVELOPMENT: 'development'>, debug_mode=False, enable_hot_reload=False, graceful_shutdown_timeout=30, max_concurrent_requests=100, worker_threads=4, enable_container_mode=False))"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 131, in setup_hook\n    await self._initialize_system_group(system_group)\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 160, in _initialize_system_group\n    await self._init_knowledge_systems()\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 206, in _init_knowledge_systems\n    self.rag_system = RAGSystem(\n                      ^^^^^^^^^^\nTypeError: RAGSystem.__init__() got an unexpected keyword argument 'knowledge_base'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210719_fc18e52f",
+    "timestamp": "2026-01-28T21:07:19.511376",
+    "category": "unknown",
+    "severity": "critical",
+    "component": "discord_client",
+    "message": "'EncryptionManager' object has no attribute 'initialize'",
+    "context": {
+      "phase": "startup",
+      "config": "BotConfiguration(discord=DiscordConfig(token='test_token', command_prefix='!', auto_reply_on_mention=True, auto_reply_on_reply=True, max_message_length=2000, embed_color=2003199, status_message='Flying high! \u2708\ufe0f', activity_type='watching'), ai=AIConfig(model_name='qwen2.5', model_path=None, max_context_length=4096, temperature=0.7, top_p=0.9, max_tokens=512, timeout_seconds=30, enable_streaming=False), memory=MemoryConfig(enable_user_memory=True, enable_conversation_history=True, max_conversation_history=50, max_context_messages=10, memory_retention_days=30, auto_prune_enabled=True, relevance_threshold=0.5), knowledge=KnowledgeConfig(enable_rag=True, vector_db_path='./data/vector_db', embedding_model='sentence-transformers/all-MiniLM-L6-v2', max_search_results=5, similarity_threshold=0.7, enable_real_time_data=True, cache_ttl_seconds=300), security=SecurityConfig(enable_encryption=True, encryption_key_path='./keys/encryption.key', enable_audit_logging=True, audit_log_path='./logs/audit.log', max_login_attempts=3, session_timeout_minutes=60, enable_rate_limiting=True), api=APIConfig(aviation_weather_api_key=None, flight_tracking_api_key=None, faa_api_key=None, request_timeout=30, max_retries=3, retry_delay=1.0, enable_caching=True, cache_ttl=300), monitoring=MonitoringConfig(enable_metrics=True, metrics_port=8080, enable_health_checks=True, health_check_interval=60, log_level='INFO', log_file_path='./logs/aviation_bot.log', max_log_file_size=10485760, log_backup_count=5), deployment=DeploymentConfig(environment=<Environment.DEVELOPMENT: 'development'>, debug_mode=False, enable_hot_reload=False, graceful_shutdown_timeout=30, max_concurrent_requests=100, worker_threads=4, enable_container_mode=False))"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 131, in setup_hook\n    await self._initialize_system_group(system_group)\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 156, in _initialize_system_group\n    await self._init_security_systems()\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 177, in _init_security_systems\n    await self.encryption_manager.initialize()\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'EncryptionManager' object has no attribute 'initialize'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210740_8458ea31",
+    "timestamp": "2026-01-28T21:07:40.899448",
+    "category": "configuration",
+    "severity": "critical",
+    "component": "discord_client",
+    "message": "'BotConfiguration' object has no attribute 'data'",
+    "context": {
+      "phase": "startup",
+      "config": "BotConfiguration(discord=DiscordConfig(token='test_token', command_prefix='!', auto_reply_on_mention=True, auto_reply_on_reply=True, max_message_length=2000, embed_color=2003199, status_message='Flying high! \u2708\ufe0f', activity_type='watching'), ai=AIConfig(model_name='qwen2.5', model_path=None, max_context_length=4096, temperature=0.7, top_p=0.9, max_tokens=512, timeout_seconds=30, enable_streaming=False), memory=MemoryConfig(enable_user_memory=True, enable_conversation_history=True, max_conversation_history=50, max_context_messages=10, memory_retention_days=30, auto_prune_enabled=True, relevance_threshold=0.5), knowledge=KnowledgeConfig(enable_rag=True, vector_db_path='./data/vector_db', embedding_model='sentence-transformers/all-MiniLM-L6-v2', max_search_results=5, similarity_threshold=0.7, enable_real_time_data=True, cache_ttl_seconds=300), security=SecurityConfig(enable_encryption=True, encryption_key_path='./keys/encryption.key', enable_audit_logging=True, audit_log_path='./logs/audit.log', max_login_attempts=3, session_timeout_minutes=60, enable_rate_limiting=True), api=APIConfig(aviation_weather_api_key=None, flight_tracking_api_key=None, faa_api_key=None, request_timeout=30, max_retries=3, retry_delay=1.0, enable_caching=True, cache_ttl=300), monitoring=MonitoringConfig(enable_metrics=True, metrics_port=8080, enable_health_checks=True, health_check_interval=60, log_level='INFO', log_file_path='./logs/aviation_bot.log', max_log_file_size=10485760, log_backup_count=5), deployment=DeploymentConfig(environment=<Environment.DEVELOPMENT: 'development'>, debug_mode=False, enable_hot_reload=False, graceful_shutdown_timeout=30, max_concurrent_requests=100, worker_threads=4, enable_container_mode=False))"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 131, in setup_hook\n    await self._initialize_system_group(system_group)\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 160, in _initialize_system_group\n    await self._init_knowledge_systems()\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 207, in _init_knowledge_systems\n    data_dir=os.path.join(self.config.data.storage_path, \"knowledge\"),\n                          ^^^^^^^^^^^^^^^^\nAttributeError: 'BotConfiguration' object has no attribute 'data'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210823_4ee98b3a",
+    "timestamp": "2026-01-28T21:08:23.940443",
+    "category": "memory_system",
+    "severity": "critical",
+    "component": "discord_client",
+    "message": "'UserProfileManager' object has no attribute 'initialize'",
+    "context": {
+      "phase": "startup",
+      "config": "BotConfiguration(discord=DiscordConfig(token='test_token', command_prefix='!', auto_reply_on_mention=True, auto_reply_on_reply=True, max_message_length=2000, embed_color=2003199, status_message='Flying high! \u2708\ufe0f', activity_type='watching'), ai=AIConfig(model_name='qwen2.5', model_path=None, max_context_length=4096, temperature=0.7, top_p=0.9, max_tokens=512, timeout_seconds=30, enable_streaming=False), memory=MemoryConfig(enable_user_memory=True, enable_conversation_history=True, max_conversation_history=50, max_context_messages=10, memory_retention_days=30, auto_prune_enabled=True, relevance_threshold=0.5), knowledge=KnowledgeConfig(enable_rag=True, vector_db_path='./data/vector_db', embedding_model='sentence-transformers/all-MiniLM-L6-v2', max_search_results=5, similarity_threshold=0.7, enable_real_time_data=True, cache_ttl_seconds=300), security=SecurityConfig(enable_encryption=True, encryption_key_path='./keys/encryption.key', enable_audit_logging=True, audit_log_path='./logs/audit.log', max_login_attempts=3, session_timeout_minutes=60, enable_rate_limiting=True), api=APIConfig(aviation_weather_api_key=None, flight_tracking_api_key=None, faa_api_key=None, request_timeout=30, max_retries=3, retry_delay=1.0, enable_caching=True, cache_ttl=300), monitoring=MonitoringConfig(enable_metrics=True, metrics_port=8080, enable_health_checks=True, health_check_interval=60, log_level='INFO', log_file_path='./logs/aviation_bot.log', max_log_file_size=10485760, log_backup_count=5), deployment=DeploymentConfig(environment=<Environment.DEVELOPMENT: 'development'>, debug_mode=False, enable_hot_reload=False, graceful_shutdown_timeout=30, max_concurrent_requests=100, worker_threads=4, enable_container_mode=False))"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 131, in setup_hook\n    await self._initialize_system_group(system_group)\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 164, in _initialize_system_group\n    await self._init_memory_systems()\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 228, in _init_memory_systems\n    await self.user_profiles.initialize()\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'UserProfileManager' object has no attribute 'initialize'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  },
+  {
+    "error_id": "ERR_20260128_210928_fc267595",
+    "timestamp": "2026-01-28T21:09:28.484086",
+    "category": "memory_system",
+    "severity": "critical",
+    "component": "discord_client",
+    "message": "'ConversationMemoryManager' object has no attribute 'initialize'",
+    "context": {
+      "phase": "startup",
+      "config": "BotConfiguration(discord=DiscordConfig(token='test_token', command_prefix='!', auto_reply_on_mention=True, auto_reply_on_reply=True, max_message_length=2000, embed_color=2003199, status_message='Flying high! \u2708\ufe0f', activity_type='watching'), ai=AIConfig(model_name='qwen2.5', model_path=None, max_context_length=4096, temperature=0.7, top_p=0.9, max_tokens=512, timeout_seconds=30, enable_streaming=False), memory=MemoryConfig(enable_user_memory=True, enable_conversation_history=True, max_conversation_history=50, max_context_messages=10, memory_retention_days=30, auto_prune_enabled=True, relevance_threshold=0.5), knowledge=KnowledgeConfig(enable_rag=True, vector_db_path='./data/vector_db', embedding_model='sentence-transformers/all-MiniLM-L6-v2', max_search_results=5, similarity_threshold=0.7, enable_real_time_data=True, cache_ttl_seconds=300), security=SecurityConfig(enable_encryption=True, encryption_key_path='./keys/encryption.key', enable_audit_logging=True, audit_log_path='./logs/audit.log', max_login_attempts=3, session_timeout_minutes=60, enable_rate_limiting=True), api=APIConfig(aviation_weather_api_key=None, flight_tracking_api_key=None, faa_api_key=None, request_timeout=30, max_retries=3, retry_delay=1.0, enable_caching=True, cache_ttl=300), monitoring=MonitoringConfig(enable_metrics=True, metrics_port=8080, enable_health_checks=True, health_check_interval=60, log_level='INFO', log_file_path='./logs/aviation_bot.log', max_log_file_size=10485760, log_backup_count=5), deployment=DeploymentConfig(environment=<Environment.DEVELOPMENT: 'development'>, debug_mode=False, enable_hot_reload=False, graceful_shutdown_timeout=30, max_concurrent_requests=100, worker_threads=4, enable_container_mode=False))"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 131, in setup_hook\n    await self._initialize_system_group(system_group)\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 164, in _initialize_system_group\n    await self._init_memory_systems()\n  File \"C:\\coding\\python\\avgirl-ai\\traindata\\v4\\src\\bot\\discord_client.py\", line 232, in _init_memory_systems\n    await self.conversation_memory.initialize()\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ConversationMemoryManager' object has no attribute 'initialize'\n",
+    "recovery_attempted": false,
+    "recovery_successful": false
+  }
+]

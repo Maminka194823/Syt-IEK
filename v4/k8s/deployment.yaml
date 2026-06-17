@@ -1,0 +1,183 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aviation-girl-v4
+  namespace: aviation-bot
+  labels:
+    app: aviation-girl-v4
+    version: v4.0.0
+spec:
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  selector:
+    matchLabels:
+      app: aviation-girl-v4
+  template:
+    metadata:
+      labels:
+        app: aviation-girl-v4
+        version: v4.0.0
+    spec:
+      serviceAccountName: aviation-bot-sa
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        runAsGroup: 1000
+        fsGroup: 1000
+      
+      containers:
+      - name: aviation-bot
+        image: aviation-girl-v4:latest
+        imagePullPolicy: Always
+        
+        ports:
+        - name: health
+          containerPort: 8080
+          protocol: TCP
+        
+        env:
+        - name: AVIATION_BOT_ENVIRONMENT
+          value: "production"
+        - name: AVIATION_BOT_CONTAINER_MODE
+          value: "true"
+        - name: AVIATION_BOT_LOG_LEVEL
+          value: "INFO"
+        - name: AVIATION_BOT_METRICS_PORT
+          value: "8080"
+        
+        # Discord configuration from secrets
+        - name: AVIATION_BOT_DISCORD_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: aviation-bot-secrets
+              key: discord-token
+        
+        # API keys from secrets
+        - name: AVIATION_BOT_WEATHER_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: aviation-bot-secrets
+              key: weather-api-key
+              optional: true
+        - name: AVIATION_BOT_FLIGHT_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: aviation-bot-secrets
+              key: flight-api-key
+              optional: true
+        - name: AVIATION_BOT_FAA_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: aviation-bot-secrets
+              key: faa-api-key
+              optional: true
+        
+        # Resource limits and requests
+        resources:
+          limits:
+            memory: "2Gi"
+            cpu: "1000m"
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+        
+        # Health checks
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: health
+          initialDelaySeconds: 60
+          periodSeconds: 30
+          timeoutSeconds: 10
+          failureThreshold: 3
+          successThreshold: 1
+        
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: health
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+          successThreshold: 1
+        
+        # Startup probe for slow initialization
+        startupProbe:
+          httpGet:
+            path: /health
+            port: health
+          initialDelaySeconds: 10
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 12  # 2 minutes total
+          successThreshold: 1
+        
+        # Volume mounts
+        volumeMounts:
+        - name: data-storage
+          mountPath: /app/data
+        - name: log-storage
+          mountPath: /app/logs
+        - name: config-volume
+          mountPath: /app/config
+          readOnly: true
+        - name: secrets-volume
+          mountPath: /app/keys
+          readOnly: true
+        
+        # Security context
+        securityContext:
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: false
+          capabilities:
+            drop:
+            - ALL
+      
+      # Volumes
+      volumes:
+      - name: data-storage
+        persistentVolumeClaim:
+          claimName: aviation-bot-data-pvc
+      - name: log-storage
+        persistentVolumeClaim:
+          claimName: aviation-bot-logs-pvc
+      - name: config-volume
+        configMap:
+          name: aviation-bot-config
+          optional: true
+      - name: secrets-volume
+        secret:
+          secretName: aviation-bot-secrets
+          defaultMode: 0400
+      
+      # Restart policy
+      restartPolicy: Always
+      
+      # Termination grace period for graceful shutdown
+      terminationGracePeriodSeconds: 60
+      
+      # Node selection (optional)
+      nodeSelector:
+        kubernetes.io/os: linux
+      
+      # Tolerations (optional)
+      tolerations: []
+      
+      # Affinity rules (optional)
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 100
+            podAffinityTerm:
+              labelSelector:
+                matchExpressions:
+                - key: app
+                  operator: In
+                  values:
+                  - aviation-girl-v4
+              topologyKey: kubernetes.io/hostname

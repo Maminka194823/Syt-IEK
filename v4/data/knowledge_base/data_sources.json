@@ -1,0 +1,38 @@
+[
+  {
+    "name": "FAA_Regulations",
+    "type": "file",
+    "location": "data/sources/faa_regulations.json",
+    "priority": 10,
+    "update_frequency": "monthly",
+    "last_updated": null,
+    "is_active": true
+  },
+  {
+    "name": "Aircraft_Database",
+    "type": "file",
+    "location": "data/sources/aircraft_specs.json",
+    "priority": 8,
+    "update_frequency": "weekly",
+    "last_updated": null,
+    "is_active": true
+  },
+  {
+    "name": "Weather_Knowledge",
+    "type": "file",
+    "location": "data/sources/weather_info.json",
+    "priority": 7,
+    "update_frequency": "daily",
+    "last_updated": null,
+    "is_active": true
+  },
+  {
+    "name": "AIM_Procedures",
+    "type": "file",
+    "location": "data/sources/aim_procedures.json",
+    "priority": 9,
+    "update_frequency": "monthly",
+    "last_updated": null,
+    "is_active": true
+  }
+]

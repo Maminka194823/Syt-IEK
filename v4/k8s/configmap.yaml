@@ -1,0 +1,82 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: aviation-bot-config
+  namespace: aviation-bot
+  labels:
+    app: aviation-girl-v4
+data:
+  bot_config.json: |
+    {
+      "discord": {
+        "command_prefix": "!",
+        "auto_reply_on_mention": true,
+        "auto_reply_on_reply": true,
+        "max_message_length": 2000,
+        "embed_color": 2003199,
+        "status_message": "Flying high! ✈️",
+        "activity_type": "watching"
+      },
+      "ai": {
+        "model_name": "qwen2.5",
+        "max_context_length": 4096,
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "max_tokens": 512,
+        "timeout_seconds": 30,
+        "enable_streaming": false
+      },
+      "memory": {
+        "enable_user_memory": true,
+        "enable_conversation_history": true,
+        "max_conversation_history": 100,
+        "max_context_messages": 10,
+        "memory_retention_days": 90,
+        "auto_prune_enabled": true,
+        "relevance_threshold": 0.5
+      },
+      "knowledge": {
+        "enable_rag": true,
+        "vector_db_path": "/app/data/vector_db",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "max_search_results": 5,
+        "similarity_threshold": 0.7,
+        "enable_real_time_data": true,
+        "cache_ttl_seconds": 600
+      },
+      "security": {
+        "enable_encryption": true,
+        "encryption_key_path": "/app/keys/encryption.key",
+        "enable_audit_logging": true,
+        "audit_log_path": "/app/logs/audit.log",
+        "max_login_attempts": 3,
+        "session_timeout_minutes": 60,
+        "enable_rate_limiting": true
+      },
+      "api": {
+        "request_timeout": 20,
+        "max_retries": 5,
+        "retry_delay": 1.0,
+        "enable_caching": true,
+        "cache_ttl": 600
+      },
+      "monitoring": {
+        "enable_metrics": true,
+        "metrics_port": 8080,
+        "enable_health_checks": true,
+        "health_check_interval": 30,
+        "log_level": "INFO",
+        "log_file_path": "/app/logs/aviation_bot.log",
+        "max_log_file_size": 52428800,
+        "log_backup_count": 5
+      },
+      "deployment": {
+        "environment": "production",
+        "debug_mode": false,
+        "enable_hot_reload": false,
+        "graceful_shutdown_timeout": 60,
+        "max_concurrent_requests": 1000,
+        "worker_threads": 4,
+        "enable_container_mode": true
+      }
+    }

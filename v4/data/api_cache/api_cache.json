@@ -1,0 +1,31 @@
+{
+  "77d2ac1e615d9c0f3133ecea401d2213": {
+    "data": {
+      "airport_code": "KJFK",
+      "timestamp": "2026-01-28T21:00:17.396636",
+      "metar": {
+        "raw": "METAR KJFK 151152Z 27012KT 10SM FEW250 15/10 A3015",
+        "observation_time": "",
+        "flight_category": "",
+        "visibility": "",
+        "wind_direction": "270",
+        "wind_speed": "12",
+        "wind_gust": "",
+        "temperature": "15",
+        "dewpoint": "10",
+        "altimeter": "",
+        "clouds": [],
+        "weather": []
+      },
+      "taf": {
+        "raw": "",
+        "issue_time": "",
+        "valid_time": "",
+        "forecasts": []
+      },
+      "source": "aviationweather.gov"
+    },
+    "timestamp": "2026-01-28T21:00:17.396636",
+    "expires_at": "2026-01-28T21:05:17.396636"
+  }
+}
